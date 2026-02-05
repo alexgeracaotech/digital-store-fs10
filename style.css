@@ -143,34 +143,3 @@ main {
 }
 
 
-
-
-
-
-
-
-@media (width >= 480px) {
-  main {
-    form {
-      width: 25rem;
-
-      h1, p {
-        text-align: start;
-      }
-    }
-  }
-}
-
-@media (width >= 768px) {
-  main {
-    form {
-      width: 28.125rem;
-
-      .else-box {
-        flex-direction: row;
-        justify-content: center;
-        gap: 1.5rem;
-      }
-    }
-  }
-}
